@@ -1,5 +1,7 @@
 ---
+import Footer from '../components/Footer.astro'
 import Navigation from '../components/Navigation.astro';
+import '../styles/global.css'
 ---
 <body>
   <!--<a href="/">ホーム</a>-->
@@ -14,4 +16,8 @@ import Navigation from '../components/Navigation.astro';
       <li><a href="/posts/post-2/">記事2</a></li>
       <li><a href="/posts/post-3/">記事3</a></li>
     </ul>
+    <script>
+      import "../script/menu.js";
+    </script>
+    <Footer />
 </body>

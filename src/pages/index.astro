@@ -1,11 +1,19 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Footer from '../components/Footer.astro'
 import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
 import Navigation from '../components/Navigation.astro';
 
+import '../styles/global.css'
+const pageTitle = "ホームページ";
+
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
+<BaseLayout pageTitle={pageTitle}>
+  <h2>私の素晴らしいブログのサブタイトル</h2>
+</BaseLayout>
 
 
 <html lang="ja">
@@ -14,10 +22,18 @@ import Navigation from '../components/Navigation.astro';
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} >
-    <title>Astro</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
-    <Navigation />
-    <h1>Blog since 2025!!</h1>
+    <!--<Navigation />-->
+    <h1>{pageTitle}</h1>
+  <Footer />
+  <script>
+    import "../script/menu.js";
+    //document.querySelector('
+    //.hamburger').addEventListener('click', () => {_
+    //  document.querySelector('.nav-links').classList.toggle('expanded');
+    //});
+  </script>
   </body>
 </html>
