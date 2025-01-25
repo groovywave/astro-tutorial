@@ -1,4 +1,6 @@
 ---
+import Navigation from '../components/Navigation.astro';
+import '../styles/global.css'
 const pageTitle = "私について";
 
 const identity = {
@@ -31,9 +33,10 @@ const textCase = "upperCase";
     </style>
   </head>
   <body>
-    <a href="/">ホーム</a>
-    <a href="/about/">概要</a>
-    <a href="/blog/">ブログ</a>
+    <Navigation />
+    <!--<a href="/">ホーム</a>-->
+    <!--<a href="/about/">概要</a>-->
+    <!--<a href="/blog/">ブログ</a>-->
     <h1>{pageTitle}</h1>
     <h2>... そして私の新しいAstroサイトについて！</h2>
 
