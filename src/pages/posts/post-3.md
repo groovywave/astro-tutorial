@@ -1,5 +1,5 @@
 ---
-title: 私の3番目のブログ記事
+title: '私の3番目のブログ記事 as frontmatter in post-3.md'
 author: Astro学習者
 description: "上手くいかないことがありましたが、コミュニティに質問して助けてもらいました！"
 image:

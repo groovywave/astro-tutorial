@@ -1,15 +1,15 @@
 ---
-layout: ../../layouts/MarkdownPostlayout.astro
-title: '私の最初のブログ記事'
+layout: ../../layouts/MarkdownPostLayout.astro
+title: '私の最初のブログ記事 as frontmatter in post-1.md'
 pubDate: 2025-01-23
-description: 'これは私の新しいAstroブログの最初の記事です。'
-author: 'Astro学習者'
+description: 'これは私の新しいAstroブログの最初の記事です。 as frontmatter in post-1.md'
+author: 'Astro学習者 as frontmatter in post-1.md'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'Astroのロゴ。'
 tags: ["astro", "ブログ", "公開学習"]
 ---
-# 私の最初のブログ記事
+# 私の最初のブログ記事 in slot
 
 投稿日: 2025-01-23
 
