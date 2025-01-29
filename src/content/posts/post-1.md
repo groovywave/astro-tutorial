@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+# layout: ../../layouts/MarkdownPostLayout.astro
 title: '私の最初のブログ記事 as frontmatter in post-1.md'
 pubDate: 2025-01-23
 description: 'これは私の新しいAstroブログの最初の記事です。 as frontmatter in post-1.md'
